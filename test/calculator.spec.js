@@ -6,7 +6,7 @@ describe("Calculator", () => {
     expect(calculator(1, 1)).to.equal(2);
   })
 
-  it("This should fail", () => {
-    expect(calculator(null, 1)).to.equal(null);
+  it("adds more numbers properly", () => {
+    expect(calculator(2, 1, 3)).to.equal(6);
   })
 })
